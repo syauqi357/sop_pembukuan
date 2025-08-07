@@ -1,126 +1,71 @@
-# 📘 Sistem Pembukuan Siswa
+# teknis input dan menyimpan data siswa
+> disclaimer / perhatian!
+
+input data siswa ini bersifat fisik, seperti kertas, foto siswa, klip serta staples.
 
 ---
+### Daftar Isi / Table of Content
 
-Sistem ini menggunakan pendekatan berbasis angkatan melalui Tahun Masuk dan Tahun Ajaran. Hal ini berbeda dengan sistem konvensional yang mengelompokkan siswa berdasarkan kelas aktif.
-
-### Kenapa pakai sistem ini?
-1. Konsistensi data jangka panjang, data siswa tetap tergabung dalam satu angkatan meskipun berpindah kelas atau mutasi internal.
-2. Mudah saat pencarian arsip, cukup cari berdasarkan tahun masuk, tidak perlu melacak kelas per tahun.
-3. Relevan untuk pencetakan dokumen seperti ijazah, rapor, dan rekap lulusan.
-
+1. [Mengumpulkan dan Mensortir Data](#mengumpulkan-dan-mensortir-data)
+2. [Menginput ke dalam Aplikasi Microsoft Excel](#menginput-ke-dalam-aplikasi-microsoft-excel-maupun-sejenis-nya)
+3. [Melakukan Cetak Data yang Sudah di Input Kedalam Kertas](#melakukan-cetak-data-yang-sudah-di-input-kedalam-kertas)
+4. [Melakukan Sortir Data Fisik](#melakukan-sortir-data-fisik)
+5. [Data Siap Digunakan dan Disimpan dengan Rapi](#data-siap-di-gunakan-dan-disimpan-dengan-rapi)
+6. [FAQ](#faq)
 ---
 
-# SOP Pembukuan Siswa Berbasis Tahun Masuk & Tahun Ajaran (Manual/Fisik)
+## mengumpulkan dan mensortir data.
+data dikumpulkan berdasarkan **nama**, **jenis kelamin**, dan **NISN** bersamaan dengan **NPSN**.
 
-## 🎯 Tujuan
-Memberikan pedoman tertulis bagi staf sekolah untuk melakukan pembukuan siswa secara manual menggunakan buku induk fisik berdasarkan **tahun masuk** dan **tahun ajaran**, bukan berdasarkan kelas aktif.
+> note! : Pastikan data lengkap dan valid agar memudahkan proses input ke EMIS maupun ke sisten integrasi lain.
 
-## 🗂️ Prinsip Dasar
+## menginput ke dalam aplikasi microsoft excel (maupun sejenis nya)
 
-- **Tahun Masuk** adalah acuan utama dalam pengelompokan data siswa.
-- Setiap siswa dicatat dalam **buku induk** sesuai tahun masuknya, bukan kelas saat ini.
-- Kelas hanyalah penanda akademik temporer, bukan struktur utama pembukuan.
+data di sortir berdasarkan :
+1. abjad atau **_sort by A-Z_**
+![gambar excel sort method]()
 
-## 🛠️ Alat & Media yang Digunakan
+2. jenis kelamin atau **```P / L```**
+![gambar excel sort by gender method]()
 
-- Buku Induk Siswa (1 buku per tahun masuk)
-- Pulpen hitam dan biru
-- Label tahun masuk (untuk penanda sampul)
-- Rak arsip (disusun urut berdasarkan tahun masuk)
+3. input NISN dan NPSN
+dalam bagian ini sangat di perlukan fokus dan cek dua kali menghindari kesalahan angka yang dapat menyebabkan salah input.
 
-## 📚 Prosedur Pembukuan
+4. 
 
-### 1. Entri Siswa Baru
-- Siswa baru dicatat di **buku induk tahun masuk yang sesuai** (misal: siswa daftar di 2023, masuk buku induk 2023).
-- Kolom yang dicatat minimal:
+## melakukan cetak data yang sudah di input kedalam kertas
+cetak data siswa yang sudah di input dalam aplikasi kemudian masuk ke tab (tab list siswa) → kemudian lihat border yang bergambar putus-putus, pastikan data tersebut sudah masuk → masuk ke menu cetak → cetak file dengan ukuran A4, kemudian di tempel dalam MAP.
+
+berikut cara jelas nya :
+
+1. list siswa
+![tab list siswa]()
+2. bentuk tampilan excel sebelum cetak/print
+![cetak 1 list siswa]()
+3. bentuk setelah di cetak/print
+![cetak 2 list siswa]()
+4. tempel kedalam MAP untuk menjadi referensi saat [memasukkan data](#melakukan-sortir-data-fisik)
+![tempel ke MAP]()
 
 
-### 2. Penomoran
-- Nomor urut dicatat mulai dari 001 per tahun masuk.
-- Format penulisan di buku:
+> note : pastikan data siswa sesuai dan normal.
 
+## melakukan sortir data fisik
+sortir data fisik di lakukan untuk menyimpan semua data yang bersifat fisik, adapun tatacara nya sebagai berikut :
+1. kertas paling depan adalah rekap data hasil dari data asli, seperti gambar di bawah ini :
+![gambar depan kertas]()
+2. data yang sudah sesuai di masukkan kedalam MAP atau buku seperti ini :
+![gambar MAP atau penyimpanan]()
+3. tiap siswa hanya dapat memiliki 1 lembar plastik, seperti dalam gambar ini :
+![gambar tiap siswa 1 lembar plastik]()
+4. susun sesuai dengan list yang sudah di cetak seperti ini :
+![gambar list yang di tempel dan di cetak]()
 
-### 3. Penanganan Siswa Mutasi
-- Masuk dari sekolah lain: tetap dicatat di buku induk tahun masuk yang disesuaikan.
-- Misalnya murid masuk di kelas 2, maka masukkan ke buku tahun masuk angkatan setara.
+> note : pastikan jika data tidak lengkap maka dapat di lompati sehingga tidak merubah data yang masuk setelah data kosong dalam map.
 
-### 4. Update Data
-- Jika siswa naik kelas, pindah sekolah, atau lulus, catat di kolom "Status".
-- Tidak perlu pindah halaman atau buku, **tetap di buku induk tahun masuk awal**.
+## data siap di gunakan dan disimpan dengan rapi
 
-## 📦 Pengarsipan Buku
+#### FAQ :
+```Q``` : 
+```A``` : 
 
-- Simpan tiap buku induk berdasarkan tahun masuk.
-- Contoh urutan rak:
-- Gunakan label besar di punggung buku:  
-`BUKU INDUK SISWA – TAHUN MASUK 2024`
-
-## 🔐 Keamanan Data
-- Simpan buku di ruang arsip atau ruang TU yang terkunci.
-- Hindari coretan/correction tape. Jika ada kesalahan, coret rapi dan beri paraf.
-- Setiap semester, lakukan pengecekan ulang data oleh wali kelas + TU.
-
-> 🧠 Catatan
->- Jangan mencampur tahun masuk berbeda dalam satu buku.
->- Kelas aktif tidak mempengaruhi penempatan buku induk.
->- Bila memungkinkan, backup data ke bentuk digital sebagai cadangan.
-
----
-
-📝 *Contoh Sampul Buku Induk Fisik:*
-
-BUKU INDUK SISWA
-TAHUN MASUK: 2023
-TAHUN AJARAN: 2023/2024
-LEMBAGA: SD/MI XYZ
-ALAMAT: Jl. Pendidikan No. 123
-
-## 📁 Deskripsi Fisik Buku Induk
-
-- Buku induk menggunakan **map berplastik** (bukan buku tulis atau binder).
-- **Setiap lembar** dalam map menampung **1 data siswa**.
-- Data siswa diurutkan **berdasarkan huruf awal dari nama depan**, agar mudah pencarian dan pengelompokan alfabetis.
-
-### 🅰️ Contoh Pengurutan Nama
-Misalnya terdapat siswa dengan nama:
-- Abdul Karim
-- Ahmad Zaki
-- Budi Hartono
-- Citra Ayu
-
-Maka urutan fisik di map:
-- Halaman 1: Abdul Karim
-- Halaman 2: Ahmad Zaki
-- Halaman 3: Budi Hartono
-- Halaman 4: Citra Ayu
-
----
-
-### 🗂️ Struktur Map Buku Induk
-- **Cover depan bagian dalam** (atau halaman belakang cover depan) berisi **daftar isi** nama siswa + nomor urutan.
-- Nomor urutan ini sama dengan **posisi lembaran** tempat data siswa ditempatkan di dalam map.
-
-### 📥 Proses Input & Pencatatan
-- Untuk memudahkan pengurutan, data siswa dimasukkan **terlebih dahulu ke dalam Excel**.
-- Excel digunakan untuk:
-  - Mengurutkan nama berdasarkan abjad
-  - Menentukan nomor halaman/urutan
-  - Menyusun daftar isi (list siswa)
-
-- Setelah itu, cetak data dan **masukkan ke map berplastik sesuai urutan abjad**.
-
----
-
-### 📌 Tips:
-- Gunakan kertas tebal/A4 untuk setiap data siswa.
-- Lapisi dengan sheet protector (plastik file) agar awet.
-- Jangan menggabungkan siswa dari tahun masuk berbeda dalam satu map.
-- Buat label besar di sampul:
-
----
-
-### ✅ Manfaat Sistem Ini
-- Mempermudah pencarian data berdasarkan nama siswa.
-- Memudahkan entri dan backup digital ke Excel.
-- Bisa diupdate atau diganti 1 lembar tanpa merusak yang lain.

@@ -1,3 +1,8 @@
+---
+layout: default
+title: Home
+---
+
 # teknis input dan menyimpan data siswa
 > disclaimer / perhatian!
 
